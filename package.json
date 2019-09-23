@@ -1,7 +1,7 @@
 {
     "private": false,
     "name": "canon-revealer",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Hide and show content by smoothly changing height. ",
     "repository": {
         "type": "git",
