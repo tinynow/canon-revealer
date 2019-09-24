@@ -29,7 +29,7 @@ new Vue({
 })
 ```
 
-### Wrap content that has a `v-if` or `v-for`
+### Wrap content that has a `v-if` or `v-show`
 
 Don't forget about accessibility.
 
