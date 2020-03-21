@@ -1,5 +1,5 @@
 /*!
- * canon-revealer v0.0.4
+ * canon-revealer v0.0.5
  * (c) Matt Kreiling
  * Released under the MIT License.
  */
