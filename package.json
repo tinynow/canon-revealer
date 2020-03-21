@@ -1,7 +1,7 @@
 {
     "private": false,
     "name": "canon-revealer",
-    "version": "0.0.6",
+    "version": "0.0.8",
     "description": "Hide and show content by smoothly changing height. ",
     "repository": {
         "type": "git",
@@ -9,7 +9,6 @@
     },
     "author": "Matt Kreiling",
     "license": "MIT",
-    "main": "./dist",
     "scripts": {
         "dev": "vue serve src/Revealer.vue",
         "build": "bili --format esm"
