@@ -1,10 +1,8 @@
 /*!
- * canon-revealer v0.0.7
+ * canon-revealer v0.0.9
  * (c) Matt Kreiling
  * Released under the MIT License.
  */
-'use strict';
-
 var script = {
   name: 'CanonRevealer',
   functional: true,
@@ -229,4 +227,4 @@ var index = {
   }
 };
 
-module.exports = index;
+export default index;
