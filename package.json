@@ -1,7 +1,7 @@
 {
     "private": false,
     "name": "canon-revealer",
-    "version": "0.0.3",
+    "version": "0.0.10",
     "description": "Hide and show content by smoothly changing height. ",
     "repository": {
         "type": "git",
@@ -9,17 +9,18 @@
     },
     "author": "Matt Kreiling",
     "license": "MIT",
-    "main": "./dist/index.cjs.js",
     "scripts": {
         "dev": "vue serve src/Revealer.vue",
-        "build": "bili --name index --plugin vue --vue.css false"
+        "build": "bili --bundle-node-modules --format esm"
     },
     "files": [
         "dist/*"
     ],
+    "main": "./dist/index.esm.js",
+    "module": "./dist/index.esm.js",
     "devDependencies": {
         "bili": "^4.8.1",
-        "rollup-plugin-vue": "^5.0.1",
-        "vue-template-compiler": "^2.6.10"
+        "rollup-plugin-vue": "^5.1.6",
+        "vue-template-compiler": "^2.6.11"
     }
 }
